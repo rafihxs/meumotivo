@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Para Gaby ❤️</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:linear-gradient(#090909,#220814,#090909);color:#fff;overflow-x:hidden}
+header{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px}
+h1{font-size:3em;color:#ff6b9d}
+p{line-height:1.8}
+section{max-width:900px;margin:30px auto;padding:25px;background:rgba(255,255,255,.06);border-radius:18px;box-shadow:0 0 20px rgba(255,0,90,.2)}
+h2{color:#ff8bb4;margin-bottom:15px}
+footer{text-align:center;padding:50px 20px}
+.heart{position:fixed;color:#ff4f81;animation:fall linear infinite;top:-20px}
+@keyframes fall{to{transform:translateY(110vh)}}
+button{padding:12px 20px;border:none;border-radius:30px;background:#ff4f81;color:white;cursor:pointer}
+#secret{display:none;margin-top:20px;font-size:1.1em}
+</style>
+</head>
+<body>
+<header>
+<h1>Para Gaby ❤️</h1>
+<p>Uma história escrita com amor, saudade, esperança e a promessa de permanecer.</p>
+<button onclick="document.getElementById('secret').style.display='block'">Clique quando sentir saudade</button>
+<div id="secret">Não importa como esteja o dia, eu continuo escolhendo você. ❤️</div>
+</header>
+
+<section><h2>Capítulo I — Quando Tudo Mudou</h2>
+<p>Você apareceu e os meus dias começaram a fazer sentido. Aos poucos, virou meu primeiro pensamento ao acordar e o último antes de dormir.</p></section>
+
+<section><h2>Capítulo II — Você Curou Partes de Mim</h2>
+<p>Sem perceber, você trouxe paz para dores que eu carregava. Seu carinho me deu força para continuar.</p></section>
+
+<section><h2>Capítulo III — Minha Ansiedade</h2>
+<p>Às vezes penso demais, falo besteiras e deixo a ansiedade falar mais alto. Não é falta de confiança em você, é medo de errar com quem se tornou tão importante. Quero continuar aprendendo a conversar melhor e cuidar do nosso amor.</p></section>
+
+<section><h2>Capítulo IV — Quando Você Está Cansada</h2>
+<p>Quarta-feira e sexta-feira sempre me lembram o quanto você trabalha. Enquanto você enfrenta dias pesados, eu fico torcendo para que tudo dê certo, esperando você chegar e pedindo a Deus que cuide de você.</p></section>
+
+<section><h2>Capítulo V — Quando Você Quer Ficar Sozinha</h2>
+<p>Se faltar força, se você só quiser silêncio, eu respeito. Estar ao seu lado também é entender seus momentos, sem cobranças, apenas oferecendo apoio.</p></section>
+
+<section><h2>Capítulo VI — Nossas Calls</h2>
+<p>Nossas risadas, conversas sem sentido e momentos simples viraram lembranças que aquecem meu coração.</p></section>
+
+<section><h2>Capítulo VII — Nossas Orações</h2>
+<p>Cada oração me faz agradecer por ter você. Uma das minhas maiores preces é que Deus proteja você todos os dias.</p></section>
+
+<section><h2>Capítulo VIII — Minha Promessa</h2>
+<p>Não prometo perfeição. Prometo permanecer, conversar, respeitar seus momentos, apoiar seus sonhos e continuar escolhendo você todos os dias.</p></section>
+
+<footer>
+<h2>Eu te amo, Gaby. ❤️</h2>
+<p>Obrigado por transformar a minha vida. Independentemente do que o futuro reserve, quero caminhar ao seu lado um dia de cada vez.</p>
+</footer>
+
+<script>
+for(let i=0;i<35;i++){
+ let h=document.createElement('div');
+ h.className='heart';
+ h.innerHTML='❤';
+ h.style.left=Math.random()*100+'vw';
+ h.style.animationDuration=(5+Math.random()*7)+'s';
+ h.style.fontSize=(12+Math.random()*18)+'px';
+ h.style.animationDelay=Math.random()*6+'s';
+ document.body.appendChild(h);
+}
+</script>
+</body></html>
